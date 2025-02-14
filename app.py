@@ -13,7 +13,7 @@ os.environ["LANGCHAIN_TRACING_V2"]="true"
 os.environ["LANGCHAIN_PROJECT"]="Simple Q&A Chatbot With Ollama"
 
 # Streamlit App Title
-st.set_page_config(page_title="Enhanced Q&A Chatbot With Ollama", layout="centered")
+st.set_page_config(page_title="Chat With Ollama", layout="centered")
 st.title("💬 Q&A Chatbot With Ollama")
 
 # Sidebar for settings
